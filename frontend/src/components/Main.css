@@ -1,0 +1,25 @@
+.Main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.DayPicker {
+    margin-bottom: 20px;
+}
+
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside), .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+    background: #A4FFDE;
+    color: #282c34;
+}
+.DayPicker-Day--today {
+    color: #1C8E64;
+}
+
+.title {
+    color: #A4FFDE;
+    text-decoration: none;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
